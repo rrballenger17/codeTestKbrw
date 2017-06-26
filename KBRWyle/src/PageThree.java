@@ -7,13 +7,14 @@ public class PageThree {
 
         for (int i = 1; i <= max; i++) {
         
-            String one = String.join("", Collections.nCopies(max - i, "."));
+            String one = String.join( "", Collections.nCopies(max - i, ".") );
 
-            String two = String.join("", Collections.nCopies(i, "" + i));
+            String two = String.join( "", Collections.nCopies(i, "" + i) );
 
             System.out.println(one + two);
 
         }
+        
 	}
 	
     public static void main(String[] args) {
