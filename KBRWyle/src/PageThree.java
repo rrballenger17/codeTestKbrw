@@ -1,9 +1,9 @@
 import java.util.Collections;
 
+
 public class PageThree {
-	
-	
-	private static void fixedWidthLines(int max ){
+
+    private static void fixedWidthLines(int max ){
 
         for (int i = 1; i <= max; i++) {
         
